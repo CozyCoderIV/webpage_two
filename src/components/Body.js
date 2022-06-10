@@ -5,8 +5,8 @@ import SectorB from './Body/SectorB'
 function Body() {
   return (
     <div className='body-container'>
-        <SectorA />
         <SectorB />
+        <SectorA />
     </div>
   )
 }
