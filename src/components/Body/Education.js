@@ -12,12 +12,12 @@ function Education() {
                 <h4 className='ei-date'>Fall of 2016 - Spring of 2020</h4>
             </div>
 
-            <div className='e-item'>
+            <div className='e-item' id='e2'>
                 <h4 className='ei-title'>Weatherford College</h4>
                 <h4 id='w-date'>Spring of 2018 - Spring of 2020</h4>
             </div>
 
-            <div className='e-item'>
+            <div className='e-item' id='e3'>
                 <h4 className='ei-title'>Louisiana State University</h4>
                 <h4 id='lsu-date'>Fall of 2020 - Current</h4>
             </div>

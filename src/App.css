@@ -70,11 +70,12 @@
   }
   #banner-img{
     position: relative;
-    bottom: 60ch;
+    right: 10ch;
+    bottom: 75ch;
     z-index: -6;
 
-    width: 158ch;
-    height: 90ch;
+    width: auto;
+    height: 10ch;
   }
   #banner-pic{
     position: relative;
@@ -91,15 +92,16 @@
   /* Body Styles */
   .body-container{
       position: relative;
+      margin-top: 3ch;
       right: 7px;
       width: 101%;
-      height: 90ch;
+      height: 80ch;
     background-color: var(--primary-Color);
   }
   .sector-container{
       position: relative;
       margin-top: 1ch;
-      width: 157.5ch;
+      width: 177ch;
       height: 40ch;
     border: 1px solid black;
   }
@@ -111,14 +113,14 @@
   }
   #box-1{
       position: relative;
-      width: 78.5ch;
+      width: 87.5ch;
       height: 39ch;
       
     border: 4px solid rgba(245, 245, 245, 0.095);
   }
   #box-2{
       position: relative;
-      width: 78.5ch;
+      width: 87.5ch;
       height: 39ch;
       margin-left: 0.5ch;
 
@@ -173,6 +175,14 @@
   .e-item:hover{
     box-shadow: 0px 2px 4px whitesmoke;
     transition: ease-in;
+  }
+  #e2{
+    position: relative;
+    left: 3ch;
+  }
+  #e3{
+    position: relative;
+    left: 6ch;
   }
 
 
@@ -230,6 +240,8 @@
   }
   .a-list{
         position: relative;
+        top: 2ch;
+        left: 6ch;
         width: 78ch;
 
       /* border: 1px solid red; */
@@ -266,6 +278,79 @@
   }
 
   /* Footer Styles */
+  .foot-container{
+      position: relative;
+      right: 7px;
+      margin-top: 3ch;
+      width: 100.5%;
+      height: 31ch;
 
+    background: linear-gradient(to top, black, var(--primary-Color));
+  }
+  .flink-container{
+      position: relative;
+      top: 2ch;
+      left: 40ch;
+      width: 90ch;
+      height: 10ch;
+
+    /* border: 1px solid white; */
+    display: flex;
+  }
+  .flink-container >*{
+    position: relative;
+    left: 8ch;
+    color: azure;
+    margin-left: 10ch;
+  }
+  #fl-1{
+    position: relative;
+    width: 10ch;
+    height: 10ch;
+  }
+  #fl-2{
+    position: relative;
+    width: 10ch;
+    height: 10ch;
+  }
+  #fl-3{
+    position: relative;
+    width: 10ch;
+    height: 10ch;
+  }
+  #f-git{
+    position: relative;
+    width: 10ch;
+    height: 10ch;
+  }
+  #f-inst{
+    position: relative;
+    width: 10ch;
+    height: 10ch;
+  }
+  #f-link{
+    position: relative;
+    width: 10ch;
+    height: 10ch;
+  }
+
+  .quote-container{
+      position: relative;
+      top: 5ch;
+      left: 25ch;
+      width: 120ch;
+      height: 10ch;
+    border: 1px solid white;
+  }
+  .foot-banner{
+      position: relative;
+      top: 6.5ch;
+      left: 35ch;
+      width: 100ch;
+      height: 0.5ch;
+
+    background: rgba(245, 245, 245, 0.4);
+    border: 1px solid rgba(245, 245, 245, 0.348);
+  }
 
 }
