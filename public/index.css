@@ -1,0 +1,9 @@
+/* Variables */
+:root{
+    --bc: rgb(40, 38, 43)
+}
+
+body{
+    background-color: var(--bc);
+}
+

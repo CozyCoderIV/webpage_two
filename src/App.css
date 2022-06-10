@@ -1,38 +1,196 @@
-.App {
-  text-align: center;
+/* Variables */
+:root{
+  --primary-Color: rgb(35, 33, 38)
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/*  Moz-FireFox  */
+@-moz-document url-prefix(){}
+/*  Internet Explorer  */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast:none){}
+/*  Chrome  */
+@media screen and (-webkit-min-device-pixel-ratio:0){  
+    
+  /* Header Styles */
+  .head_container{
+      position: relative;
+      bottom: 6px;
+      right: 7px;
+      height: 35ch;
+      width: 101%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .nav-bar{
+    position: relative;
+    height: 8ch;
+    width: 100%;
+  
+    display: flex;
+  
+    background-color: var(--primary-Color);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.291);
   }
-  to {
-    transform: rotate(360deg);
+  .nav-title{
+    position: relative;
+    left: 1ch;
+  
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aliceblue;
+  }  
+  .nav-title-2{
+    position: relative;
+    left: 1.5ch;
+  
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-shadow: 0px 0px 2px white;
   }
+  .welcome-container{
+      position: relative;
+      top: 5ch;
+      left: 1ch;
+      height: 10ch;
+      width: 80ch;
+
+    border: .5px solid rgba(137, 137, 137, 0.32);
+    background-color: rgba(51, 49, 49, 0.272);
+  }
+  .welcome-container-banner{
+      position: relative;
+      top: 6ch;
+      left: 1ch;
+      height: 2.3ch;
+      width: 80ch;
+    /* border: 1px solid black; */
+    background-color: rgba(206, 212, 218, 0.19);
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(206, 212, 218, 0.19));
+  }
+  .welcome-title{
+    position: relative;
+
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  #banner-img{
+    position: relative;
+    bottom: 60ch;
+    z-index: -6;
+
+    width: 158ch;
+    height: 90ch;
+  }
+  #banner-pic{
+    position: relative;
+
+    left: 56ch;
+    bottom: 33ch;
+
+    width: 100ch;
+    height: 70ch;
+    z-index: -1;
+    /* border: 1px solid black; */
+  }
+
+  /* Body Styles */
+  .body-container{
+      position: relative;
+      right: 7px;
+      width: 101%;
+      height: 90ch;
+    background-color: var(--primary-Color);
+  }
+  .sector-container{
+      position: relative;
+      margin-top: 1ch;
+      width: 157.5ch;
+      height: 40ch;
+    border: 1px solid black;
+  }
+  #sector-A{
+    display: flex;
+  }
+  #sector-B{
+    display: grid;
+  }
+  #box-1{
+      position: relative;
+      width: 78.5ch;
+      height: 40ch;
+      
+    border: 1px solid rgba(245, 245, 245, 0.095);
+  }
+  #box-2{
+      position: relative;
+      width: 78.5ch;
+      height: 40ch;
+      margin-left: 0.5ch;
+
+    border: 1px solid rgba(245, 245, 245, 0.095);
+  }
+
+  .edu-container{
+      position: relative;
+      width: 50ch;
+      height: 8ch;
+    border: .5px solid rgba(137, 137, 137, 0.32);
+    box-shadow: 0px 5px 5px black;
+    background-color: rgba(35, 34, 34, 0.272);
+  }
+  .edu-title{
+    position: relative;
+
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  .edu-banner{
+    position: relative;
+      bottom: 10px;
+      width: 50ch;
+      height: 1.5ch;
+
+    border: 1px solid rgb(26, 25, 25);
+    box-shadow: 0px 5px 5px black;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.632), rgba(206, 212, 218, 0.19));
+  }
+  .edu-list{
+      position: relative;
+      left: 3ch;
+      width: 70ch;
+      height: 25ch;
+  }
+  .e-item{
+      position: relative;
+      width: auto;
+      height: 5ch;
+
+      margin-top: 10px;
+      font-family: 'Kdam Thmor Pro', sans-serif;
+      color: aliceblue;
+
+    border: .5px solid rgba(195, 195, 195, 0.533);
+    background-color: rgba(0, 0, 0, 0.326);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.326), rgba(102, 101, 101, 0.393));
+    display: flex;
+  }
+
+  .ei-date{
+    position: relative;
+    left: 18.5ch;
+  }
+  #w-date{
+    position: relative;
+    left: 15ch;
+
+  }
+  #lsu-date{
+    position: relative;
+    left: 18ch;
+  }
+
+  .attr-container{
+  }
+
+
+
+
+  /* Footer Styles */
+
+
 }
