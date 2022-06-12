@@ -50,7 +50,7 @@ p{
   #link-list{
     position: relative;
     top: 3ch;
-    left: 80ch;
+    left: 114ch;
     display: flex;
   }
   #link-list>*{
@@ -337,6 +337,10 @@ p{
     border-radius: 1.5em; */
     /* border: 1px solid red; */
   }
+  #s-icon:hover{
+    color: rgb(248, 200, 78);
+    box-shadow: 0px 0px 10px rgb(247, 186, 31);
+  }
   #lang-title{
     position: relative;
     font-family: 'Kdam Thmor Pro', sans-serif;
@@ -374,6 +378,10 @@ p{
     left: 5ch;
     width: 3ch;
     height: 3ch;
+  }
+  #star-box:hover{
+    color: rgb(248, 200, 78);
+    /* box-shadow: 0px 0px 10px rgb(247, 186, 31); */
   }
 
   #box-1{
@@ -438,8 +446,8 @@ p{
     display: flex;
   }
   .e-item:hover{
-    box-shadow: 0px 2px 4px whitesmoke;
-    transition: ease-in;
+    color: rgb(248, 200, 78);
+    text-shadow: 0px 0px 2px rgb(247, 186, 31);
   }
   #e2{
     position: relative;
@@ -518,15 +526,27 @@ p{
     width: 5ch;
     height: 5ch;
   }
+  #react-icon:hover{
+    color: rgb(248, 200, 78);
+    text-shadow: 0px 0px 2px rgb(247, 186, 31);
+  }
   #js-icon{
     position: relative;
     width: 5ch;
     height: 5ch;
   }
+  #js-icon:hover{
+    color: rgb(248, 200, 78);
+    text-shadow: 0px 0px 2px rgb(247, 186, 31);
+  }
   #py-icon{
     position: relative;
     width: 5ch;
     height: 5ch;
+  }
+  #py-icon:hover{
+    color: rgb(248, 200, 78);
+    text-shadow: 0px 0px 2px rgb(247, 186, 31);
   }
   #ja-icon{
     position: relative;
@@ -534,12 +554,20 @@ p{
     width: 5ch;
     height: 5ch;
   }
+  #ja-icon:hover{
+    color: rgb(248, 200, 78);
+    text-shadow: 0px 0px 2px rgb(247, 186, 31);
+  }
   #c-icon{
     position: relative;
     top: 16px;
     left: 10px;
     width: 3ch;
     height: 3ch;
+  }
+  #c-icon:hover{
+    color: rgb(248, 200, 78);
+    text-shadow: 0px 0px 2px rgb(247, 186, 31);
   }
 
   /* Footer Styles */

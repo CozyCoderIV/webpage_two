@@ -7,8 +7,8 @@ function NavBar() {
       <h3 className='nav-title-2'>Jackson IV</h3>
 
       <div id='link-list'>
-        <div id='resume-link'><h3>Resume</h3></div>
-        <div id='proj-page-link'><h3>Projects</h3></div>
+        <div id='resume-link'><a><h3>Resume</h3></a></div>
+        <div id='proj-page-link'><a><h3>Projects</h3></a></div>
       </div>
     </nav>
   )

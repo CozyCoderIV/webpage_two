@@ -6,8 +6,8 @@ function Foot() {
     <div className='foot-container'>
         <div className='flink-container'>
             <a id='fl-1' href='https://github.com/CozyCoderIV' target="_blank"><FaGithub id='f-git'/></a>
-            <a id='fl-2' href='https://www.linkedin.com/in/otis-jackson4/' target="_blank"><FaInstagram id='f-inst'/></a>
-            <a id='fl-3' href='https://www.instagram.com/o.j.daprince_iv/' target="_blank"><FaLinkedin id='f-link'/></a>
+            <a id='fl-2' href='https://www.instagram.com/o.j.daprince_iv/' target="_blank"><FaInstagram id='f-inst'/></a>
+            <a id='fl-3' href='https://www.linkedin.com/in/otis-jackson4/' target="_blank"><FaLinkedin id='f-link'/></a>
         </div>
 
         <div className='quote-container'>
